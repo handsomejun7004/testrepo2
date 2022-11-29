@@ -18,4 +18,4 @@ spec:
       - name: main
         image: 076508105214.dkr.ecr.ap-northeast-2.amazonaws.com/bastion:15
         ports:
-        - containerPort: 80
+        - containerPort: 8888
