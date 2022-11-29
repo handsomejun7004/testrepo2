@@ -3,19 +3,19 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   labels:
-    app: nginx
+    app: main
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: nginx
+      app: main
   template:
     metadata:
       labels:
-        app: nginx
+        app: main
     spec:
       containers:
-      - name: nginx
-        image: 076508105214.dkr.ecr.ap-northeast-2.amazonaws.com/bastion:13
+      - name: main
+        image: 076508105214.dkr.ecr.ap-northeast-2.amazonaws.com/bastion:15
         ports:
         - containerPort: 80
