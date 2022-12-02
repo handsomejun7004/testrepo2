@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: main
-        image: 076508105214.dkr.ecr.ap-northeast-2.amazonaws.com/bastion:19
+        image: 076508105214.dkr.ecr.ap-northeast-2.amazonaws.com/bastion:2 
         ports:
         - containerPort: 8888
